@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo' ;
+    src: url("fontes/mk1.ttf");
+}
+
+
+
+body{
+    background-image: url(imagens/planodefundo01.png) ;
+}
+header#cabecalho{
+    font-family: 'FonteLogo', Helvetica, sans-serif;
+    text-align: center;
+    color: yellow;
+}
+/*
+main#borda{
+    border: ridge;
+    position: relative;
+    width: 639px;
+    border-width: thick;
+    left: 30%;
+    top: 140px;
+
+}*/
+
+ #selecaodepersonagem img{
+    position: absolute;
+    width: 500px;
+    top: 10%;
+    left: 35%;
+}
+
